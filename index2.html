@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Question 1</h2>
+        1. Which Language runs in a web browser?<hr>
+        <input type="radio" name="question1" id="correct1">JavaScript<br>
+        <input type="radio" name="question1">C<br>
+        <input type="radio" name="question1">Python<br>
+        <input type="radio" name="question1">Java<br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+
+    <div class="container">
+        <h2>Question 2</h2>
+        2.What does CSS stand for?<hr>
+        <input type="radio" name="question2">Central Style Sheets<br>
+        <input type="radio" name="question2" id="correct2">Cascading Style Sheets<br>
+        <input type="radio" name="question2">Cascading Simpke Sheets<br>
+        <input type="radio" name="question2">Cascading Sample Sheets<br>
+        <button class="next" onclick="next(2)">NEXT</button>
+    </div>
+
+    <div class="container">
+        <h2>Question 3</h2>
+        3.What does HTML stands for?<hr>
+        <input type="radio" name="question3">Hypertext Machine Language<br>
+        <input type="radio" name="question3">Hypertext Markdown Language<br>
+        <input type="radio" name="question3" id="correct3">Hypertext Markup Language<br>
+        <input type="radio" name="question3">Hyperloop Machine Language<br>
+        <button class="next" onclick="next(3)">NEXT</button>
+    </div>
+
+    <div class="container">
+        <h2>Question 4</h2>
+        4.When was Javascript launched?<hr>
+        <input type="radio" name="question4">1995<br>
+        <input type="radio" name="question4">1998<br>
+        <input type="radio" name="question4">1999<br>
+        <input type="radio" name="question4" id="correct4">None of the above<br>
+        <button onclick="result()">SUBMIT QUIZ</button>
+    </div>
+
+   
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
